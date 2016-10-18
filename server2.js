@@ -2,7 +2,7 @@ const http = require('http');
 
 http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
-	response.write('Here you can find some files form your computer')
+	response.write('Here you can find some files from your computer')
 		response.end();
 		}
     const url = request.url;
